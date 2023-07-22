@@ -42,7 +42,7 @@ public class Sorting {
 
     public static void bubbleSort(int[] arr) {
         if (arr == null || arr.length <= 1) {
-            System.out.println(arr);
+            printArray(arr);
             return;
         }
 

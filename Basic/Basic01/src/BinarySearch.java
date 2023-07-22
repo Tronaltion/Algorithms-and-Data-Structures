@@ -140,7 +140,7 @@ public class BinarySearch {
 
 
     public static int bisection(int left, int right) {
-        return (int) left + (right - left) / 2;
+        return (int) (left + (right - left) / 2);
     }
 
 
